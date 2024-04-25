@@ -17,7 +17,7 @@ import {
 } from "@nextui-org/react";
 import unsplash from "./unsplashConfig";
 import { SearchIcon } from "./SearchIcon";
-import { AcmeLogo } from "./AcmeLogo";
+import { PicproseLogo } from "./PicproseLogo";
 import PhotoAlbum from "react-photo-album";
 import InfiniteScroll from "react-infinite-scroll-component";
 
@@ -44,7 +44,7 @@ export const LeftResourcePanel = (props) => {
       const file = URL.createObjectURL(event.target.files[0]);
       props.onData({
         url: file,
-        name: "PicProse",
+        name: "Picprose",
         avatar: "default-author.jpg",
         profile: "default",
         downloadLink: "",
@@ -178,8 +178,7 @@ export const LeftResourcePanel = (props) => {
           }}
         >
           <NavbarBrand>
-            <AcmeLogo />
-            <p className="font-bold text-inherit">PicProse</p>
+            <PicproseLogo />
           </NavbarBrand>
 
           <NavbarContent justify="end">

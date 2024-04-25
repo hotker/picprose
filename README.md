@@ -1,17 +1,17 @@
-<h1 align="center"> PicProse </h1>
+<h1 align="center"> Picprose </h1>
 
 <p align="center">
-   <a href="https://github.com/gezhaoyou/picprose/stargazers"><img alt="PicProse Stars" src="https://img.shields.io/github/stars/gezhaoyou/picprose?style=social"/></a>
-    <a href="https://github.com/gezhaoyou/picprose/releases/latest"><img alt="PicProse Release" src="https://img.shields.io/github/v/release/gezhaoyou/picprose"/></a>
-    <a href="https://github.com/gezhaoyou/picprose/blob/main/LICENSE"><img alt="PicProse Stars" src="https://img.shields.io/github/license/gezhaoyou/picprose"/></a>  
+   <a href="https://github.com/gezhaoyou/picprose/stargazers"><img alt="Picprose Stars" src="https://img.shields.io/github/stars/gezhaoyou/picprose?style=social"/></a>
+    <a href="https://github.com/gezhaoyou/picprose/releases/latest"><img alt="Picprose Release" src="https://img.shields.io/github/v/release/gezhaoyou/picprose"/></a>
+    <a href="https://github.com/gezhaoyou/picprose/blob/main/LICENSE"><img alt="Picprose Stars" src="https://img.shields.io/github/license/gezhaoyou/picprose"/></a>  
 </p>
 
 > 👉 Unsplash 限制每小时最多50次请求，若出现图库加载不出来，请稍后再试
-> 
-> 👉 Unsplash limits requests to a maximum of 50 per hour. If the image library fails to load, please try again later.
+
+> 👉 Unsplash limits requests to 50/h. If image library fails to load, please try again later.
 
 ## Intro
-PicProse is a article cover image generator tool for Medium, Wordpress, Wechat and other blog post
+Picprose is a article cover image generator tool for Medium, Wordpress, Wechat and other blog post
 
 **Preview:** 
 
@@ -78,4 +78,4 @@ docker run -d --name picprose -e NEXT_PUBLIC_UNSPLASH_API_KEY=xxx -p 3000:3000 h
 ```
 
 ## License
-PicProse is open-source under the GNU Affero General Public License v3.0 (AGPL-3.0), you will find more information about the license and how to comply with it [here](https://github.com/gezhaoyou/picprose/blob/main/LICENSE).
+Picprose is open-source under the GNU Affero General Public License v3.0 (AGPL-3.0), you will find more information about the license and how to comply with it [here](https://github.com/gezhaoyou/picprose/blob/main/LICENSE).
